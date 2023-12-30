@@ -603,8 +603,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 148ca6c5188e28049b2e94a62b04f054, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gridManagerObj: {fileID: 0}
-  gridManagerScript: {fileID: 0}
+  gridManagerObj: {fileID: 673494426}
+  gridManagerScript: {fileID: 673494430}
+  musicManagerObj: {fileID: 1878313395}
+  musicManagerScript: {fileID: 1878313396}
   currentTile: {fileID: 0}
   tileName: 
 --- !u!65 &537688860
@@ -1236,6 +1238,8 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 510660f8f3b152d438d3f835abff0357,
       type: 2}
+  cueCount: 0
+  window: 1
 --- !u!4 &1878313397
 Transform:
   m_ObjectHideFlags: 0

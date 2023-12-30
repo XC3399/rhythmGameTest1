@@ -12,6 +12,9 @@ public class playerControler : MonoBehaviour
     public GameObject gridManagerObj;
     public gridManager gridManagerScript;
 
+    public GameObject musicManagerObj;
+    public musicManager musicManagerScript;
+
     private float raycastLength = 3;
     private RaycastHit outInfo;
     public GameObject currentTile;
@@ -45,7 +48,11 @@ public class playerControler : MonoBehaviour
     
     private void Start()
     {
+        //get grid manager script
         gridManagerScript = gridManagerObj.GetComponent<gridManager>();
+
+        //get music manager script
+        musicManagerScript = musicManagerObj.GetComponent<musicManager>();
     }
 
     private void Update()
@@ -68,7 +75,16 @@ public class playerControler : MonoBehaviour
             {
                 
             }
-            Debug.Log("moving in A");
+            if (musicManagerScript.window == true)
+            {
+                Debug.Log("in window");
+            }
+            else
+            {
+                Debug.Log("out window");
+            }
+
+            //Debug.Log("moving in A");
             
         }
     }
