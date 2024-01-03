@@ -15,6 +15,8 @@ public class playerControler : MonoBehaviour
     public GameObject musicManagerObj;
     public musicManager musicManagerScript;
 
+    public int attack2Time;
+    
     private float raycastLength = 3;
     private RaycastHit outInfo;
     public GameObject currentTile;
@@ -69,7 +71,9 @@ public class playerControler : MonoBehaviour
             }
         }
         
-        if (Input.GetKeyDown(KeyCode.A))
+        
+        
+        if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             //if (gridManagerScript.gridUnits)
             {
@@ -77,15 +81,26 @@ public class playerControler : MonoBehaviour
             }
             if (musicManagerScript.window == true)
             {
-                Debug.Log("in window");
+                Debug.Log("1 in window");
             }
             else
             {
-                Debug.Log("out window");
+                Debug.Log("1 out window");
             }
+        }
 
-            //Debug.Log("moving in A");
-            
+        if (Input.GetKeyDown(KeyCode.Mouse1))
+        {
+            //every count if 2, +4 to wait a beat
+            if (musicManagerScript.window == true && attack2Time < musicManagerScript.cueCount+4)
+            {
+                Debug.Log("2 in window");
+                attack2Time = musicManagerScript.cueCount;
+            }
+            else
+            {
+                Debug.Log("2 out window");
+            }
         }
     }
 }
