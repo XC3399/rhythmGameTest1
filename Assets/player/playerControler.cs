@@ -75,10 +75,6 @@ public class playerControler : MonoBehaviour
         
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
-            //if (gridManagerScript.gridUnits)
-            {
-                
-            }
             if (musicManagerScript.window == true)
             {
                 Debug.Log("1 in window");
@@ -91,16 +87,24 @@ public class playerControler : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Mouse1))
         {
-            //every count if 2, +4 to wait a beat
-            if (musicManagerScript.window == true && attack2Time < musicManagerScript.cueCount+4)
+            //every count if 2, +4 to wait a beat, -1
+            if (musicManagerScript.window == true && attack2Time+3 < musicManagerScript.cueCount)
             {
+                Debug.Log(musicManagerScript.cueCount);
                 Debug.Log("2 in window");
                 attack2Time = musicManagerScript.cueCount;
+                
             }
             else
             {
                 Debug.Log("2 out window");
             }
+        }
+
+        
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            
         }
     }
 }

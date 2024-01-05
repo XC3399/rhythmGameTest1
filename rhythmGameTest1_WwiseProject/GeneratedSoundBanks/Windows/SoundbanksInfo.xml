@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<RootPaths>
 		<ProjectRoot>../..</ProjectRoot>
 		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
@@ -9,13 +9,13 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="534561221" Type="User" Language="SFX" Hash="{103F91B3-8E1B-D4EA-7589-AF7421C384F2}">
+		<SoundBank Id="534561221" Type="User" Language="SFX" Hash="{421AA824-B6F2-68FE-DA91-8E7EB5637E43}">
 			<ShortName>mainSoundbank</ShortName>
 			<Path>mainSoundbank.bnk</Path>
 			<Media>
 				<File Id="243968339" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>beat test1.wav</ShortName>
-					<CachePath>SFX/beat test1_D79FB2B7.wem</CachePath>
+					<CachePath>SFX/beat test1_FBC78EF0.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -26,7 +26,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{986487A9-2683-E47A-8688-3D0FE6FDB954}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{B6CBD692-12EC-CDBA-0932-48F63C40C91F}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -40,5 +40,5 @@
 			</Busses>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{FE302F63-EAD0-6ED7-EC73-60D0B5438209}</FileHash>
+	<FileHash>{B7545900-039C-CFA1-AC17-EA8C3E5F88F1}</FileHash>
 </SoundBanksInfo>

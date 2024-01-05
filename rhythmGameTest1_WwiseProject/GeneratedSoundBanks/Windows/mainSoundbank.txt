@@ -2,5 +2,5 @@ Event	ID	Name			Wwise Object Path	Notes
 	54190626	Play_bgMusicPlaylist			\Default Work Unit\Play_bgMusicPlaylist	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	243968339	beat test1	C:\Users\xixic\Desktop\Unity Projects\rhythmGameTest1\rhythmGameTest1_WwiseProject\.cache\Windows\SFX\beat test1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\bgMusicPlaylist\bgMusic\beat test1		1411296
+	243968339	beat test1	C:\Users\734445\Xia Flies\unity projects\rhythmGameTest1\rhythmGameTest1_WwiseProject\.cache\Windows\SFX\beat test1_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\bgMusicPlaylist\bgMusic\beat test1		1411296
 
