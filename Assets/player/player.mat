@@ -68,6 +68,14 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _baseCol:
+        m_Texture: {fileID: 2800000, guid: 78f6351657f977e4293d700744b8c44c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _baseColArray:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _mainTex:
         m_Texture: {fileID: 2800000, guid: ec7794aafd3ef1245aec67d16967e196, type: 3}
         m_Scale: {x: 1, y: 1}
