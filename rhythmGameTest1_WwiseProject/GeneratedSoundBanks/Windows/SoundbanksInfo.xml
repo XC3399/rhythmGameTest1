@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="534561221" Type="User" Language="SFX" Hash="{421AA824-B6F2-68FE-DA91-8E7EB5637E43}">
+		<SoundBank Id="534561221" Type="User" Language="SFX" Hash="{3631B3F4-90F9-0D1A-4E6A-98A5CB400826}">
 			<ShortName>mainSoundbank</ShortName>
 			<Path>mainSoundbank.bnk</Path>
 			<Media>
@@ -17,11 +17,25 @@
 					<ShortName>beat test1.wav</ShortName>
 					<CachePath>SFX/beat test1_FBC78EF0.wem</CachePath>
 				</File>
+				<File Id="427912815" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>enemyPreAttack2.wav</ShortName>
+					<CachePath>SFX/enemyPreAttack2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="683939523" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>enemyPreAttack1.wav</ShortName>
+					<CachePath>SFX/enemyPreAttack1_818F3B66.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
 				<Event Id="54190626" Name="Play_bgMusicPlaylist" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="243968339"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2918121273" Name="Play_enemyPreAttack" DurationType="OneShot" DurationMin="2" DurationMax="2">
+					<MediaRefs>
+						<MediaRef Id="427912815"/>
+						<MediaRef Id="683939523"/>
 					</MediaRefs>
 				</Event>
 			</Events>
@@ -40,5 +54,5 @@
 			</Busses>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B7545900-039C-CFA1-AC17-EA8C3E5F88F1}</FileHash>
+	<FileHash>{C99415EF-CCF3-17EA-4BEA-AE36F45B9343}</FileHash>
 </SoundBanksInfo>
