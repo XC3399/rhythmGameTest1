@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="534561221" Type="User" Language="SFX" Hash="{3631B3F4-90F9-0D1A-4E6A-98A5CB400826}">
+		<SoundBank Id="534561221" Type="User" Language="SFX" Hash="{76849126-7FB9-65AF-C004-6E24A9F770A1}">
 			<ShortName>mainSoundbank</ShortName>
 			<Path>mainSoundbank.bnk</Path>
 			<Media>
@@ -34,8 +34,12 @@
 				</Event>
 				<Event Id="2918121273" Name="Play_enemyPreAttack" DurationType="OneShot" DurationMin="2" DurationMax="2">
 					<MediaRefs>
-						<MediaRef Id="427912815"/>
 						<MediaRef Id="683939523"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="138135177" Name="Play_enemyPreAttack2" DurationType="OneShot" DurationMin="2" DurationMax="2">
+					<MediaRefs>
+						<MediaRef Id="427912815"/>
 					</MediaRefs>
 				</Event>
 			</Events>
@@ -54,5 +58,5 @@
 			</Busses>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{C99415EF-CCF3-17EA-4BEA-AE36F45B9343}</FileHash>
+	<FileHash>{2AB37382-A770-1E1A-FFA4-6D3E3E380EBF}</FileHash>
 </SoundBanksInfo>

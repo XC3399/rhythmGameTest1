@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<RandomSequenceContainer Name="enemyPreAttack" ID="{A9FA7B2C-D281-4714-9DEB-57E6EAEAA00D}" ShortID="981976834">
 					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 					</PropertyList>
@@ -18,6 +19,13 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Sound Name="enemyPreAttack1" ID="{F8BF1D6F-FB7C-4519-B21E-1B45A7EF3374}" ShortID="841641362">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5DCA20AA-6AE9-4852-A6B6-633DEF3DC63A}"/>
@@ -39,29 +47,14 @@
 								<ActiveSource Name="enemyPreAttack1" ID="{C1AD4D2A-8928-4A43-AF3E-8AF2CB73328E}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="enemyPreAttack2" ID="{FA2BA08E-EAE2-419A-AE9A-69B4146F4696}" ShortID="353947174">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5DCA20AA-6AE9-4852-A6B6-633DEF3DC63A}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{21A3D98F-67D8-4CCC-BBF4-B0AA18B0C0CF}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="enemyPreAttack2" ID="{F0F68DBE-68E4-40DB-92AD-0DE2A81D0D16}">
-									<Language>SFX</Language>
-									<AudioFile>enemyPreAttack2.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="427912815"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="enemyPreAttack2" ID="{F0F68DBE-68E4-40DB-92AD-0DE2A81D0D16}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 						<Sound Name="enemyPreAttack1_01" ID="{B7E6359D-6426-4B66-A2C0-98F4A0E384C9}" ShortID="520213060">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5DCA20AA-6AE9-4852-A6B6-633DEF3DC63A}"/>
@@ -83,7 +76,44 @@
 								<ActiveSource Name="enemyPreAttack1" ID="{CB4FF550-C547-40C3-BEBE-E6F48814B312}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="enemyPreAttack1_02" ID="{D5A2D9E7-F4F0-4208-814D-A27B3FEFBEAE}" ShortID="303317021">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5DCA20AA-6AE9-4852-A6B6-633DEF3DC63A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{21A3D98F-67D8-4CCC-BBF4-B0AA18B0C0CF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="enemyPreAttack1" ID="{43200DA5-EDFF-4705-954E-B50C2934C2B5}">
+									<Language>SFX</Language>
+									<AudioFile>enemyPreAttack1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="683939523"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="enemyPreAttack1" ID="{43200DA5-EDFF-4705-954E-B50C2934C2B5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{A530C026-9C11-465A-A6BC-53AAB3786397}">
+							<PropertyList>
+								<Property Name="PanX" Type="Real64" Value="90.5444126074498"/>
+								<Property Name="PanY" Type="Real64" Value="9.92907801418441"/>
+							</PropertyList>
+						</Panner>
+					</PositioningInfo>
 					<ObjectLists>
 						<ObjectList Name="Playlist">
 							<Reference>
@@ -93,11 +123,49 @@
 								<ObjectRef Name="enemyPreAttack1_01" ID="{B7E6359D-6426-4B66-A2C0-98F4A0E384C9}" WorkUnitID="{04D5F65F-482C-4E7D-BF95-5B988A6CF6E5}"/>
 							</Reference>
 							<Reference>
-								<ObjectRef Name="enemyPreAttack2" ID="{FA2BA08E-EAE2-419A-AE9A-69B4146F4696}" WorkUnitID="{04D5F65F-482C-4E7D-BF95-5B988A6CF6E5}"/>
+								<ObjectRef Name="enemyPreAttack1_02" ID="{D5A2D9E7-F4F0-4208-814D-A27B3FEFBEAE}" WorkUnitID="{04D5F65F-482C-4E7D-BF95-5B988A6CF6E5}"/>
 							</Reference>
 						</ObjectList>
 					</ObjectLists>
 				</RandomSequenceContainer>
+				<Sound Name="enemyPreAttack2" ID="{FA2BA08E-EAE2-419A-AE9A-69B4146F4696}" ShortID="353947174">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>2</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5DCA20AA-6AE9-4852-A6B6-633DEF3DC63A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{21A3D98F-67D8-4CCC-BBF4-B0AA18B0C0CF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="enemyPreAttack2" ID="{F0F68DBE-68E4-40DB-92AD-0DE2A81D0D16}">
+							<Language>SFX</Language>
+							<AudioFile>enemyPreAttack2.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="427912815"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{C5244511-9103-4923-A29B-9C3FA1E210A4}">
+							<PropertyList>
+								<Property Name="PanX" Type="Real64" Value="90.5444126074498"/>
+								<Property Name="PanY" Type="Real64" Value="9.92907801418441"/>
+							</PropertyList>
+						</Panner>
+					</PositioningInfo>
+					<ActiveSourceList>
+						<ActiveSource Name="enemyPreAttack2" ID="{F0F68DBE-68E4-40DB-92AD-0DE2A81D0D16}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

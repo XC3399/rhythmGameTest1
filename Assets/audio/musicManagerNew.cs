@@ -13,6 +13,8 @@ public class musicManager : MonoBehaviour
     [SerializeField] AK.Wwise.Event enemyPreAttack;
     public bool enemyInRange = false;
     public int timesInRange = 0;
+    [SerializeField] GameObject enemy;
+    public int preAttackTarget = 0;
 
     uint callbackType = (uint)(AkCallbackType.AK_MusicSyncUserCue | AkCallbackType.AK_MusicSyncBeat);
 
@@ -45,8 +47,13 @@ public class musicManager : MonoBehaviour
         {
             if (enemyInRange == true)
             {
-                enemyPreAttack.Post(listener);
+                enemyPreAttack.Post(enemy);
                 timesInRange = timesInRange + 1;
+            }
+
+            if (timesInRange == 2)
+            {
+                preAttackTarget = cueCount + 4;
             }
         }
     }
@@ -58,6 +65,7 @@ public class musicManager : MonoBehaviour
         {
             enemyInRange = true;
         }
+
         if (timesInRange == 3)
         {
             enemyInRange = false;
