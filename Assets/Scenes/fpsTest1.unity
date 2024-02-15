@@ -543,7 +543,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 621495715}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cbe2f7ff6978ef041acf88ec2e344867, type: 3}
+  m_Script: {fileID: 11500000, guid: e9a11ef928d5c2f4cb3bff29fe10ecb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   listener: {fileID: 1653532277}
@@ -554,6 +554,13 @@ MonoBehaviour:
       type: 2}
   cueCount: 0
   window: 1
+  enemyPreAttack:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 00b0b4dc424d6d04aa3de0b6e540d1e1,
+      type: 2}
+  enemyInRange: 0
+  timesInRange: 0
 --- !u!4 &621495720
 Transform:
   m_ObjectHideFlags: 0

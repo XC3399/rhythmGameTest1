@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: d4bab78424d8054b854836377abee0df
     GuidInternal: 
-    m_lastTime: -8584936959771018989
+    m_lastTime: -8584936811668901518
     List:
     - name: mainSoundbank
       guid: 23808c7e51098e469d34afea3c22ffc2
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 9d384d188a667541ab89bee62b8b7010
     GuidInternal: 
-    m_lastTime: -8584936959771309047
+    m_lastTime: -8584936811976834032
     List:
     - name: Play_bgMusicPlaylist
       guid: 91484b4a9ce87c4191795c52cdba01c0
@@ -113,6 +113,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_enemyPreAttack
+      guid: af2fcdbedd3b1e4a8fdb29122b30b42e
+      id: 2918121273
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9d384d188a667541ab89bee62b8b7010
+      - ElementName: Play_enemyPreAttack
+        ObjectType: 3
+        guid: af2fcdbedd3b1e4a8fdb29122b30b42e
+      Path: Events\Default Work Unit\Play_enemyPreAttack
+      maxAttenuation: 0
+      maxDuration: 2
+      minDuration: 2
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -170,7 +187,7 @@ MonoBehaviour:
     m_lastTime: -8584936959770978981
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0b0000000c000000
+  ExpandedWaapiItemIds: 0500000006000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
