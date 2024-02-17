@@ -38,8 +38,25 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 8fd9a321d867cc4cbbf4b0aa18b0c0cf
     GuidInternal: 
-    m_lastTime: -8584936959771109014
+    m_lastTime: -8584934259459298055
     List:
+    - name: Audio Objects
+      guid: 9790550d5e664d47b7ac837271ccb6c2
+      id: 1401767917
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8fd9a321d867cc4cbbf4b0aa18b0c0cf
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Audio Objects
+        ObjectType: 2
+        guid: 9790550d5e664d47b7ac837271ccb6c2
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Audio Objects
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
       id: 3803692087

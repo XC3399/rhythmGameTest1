@@ -3,7 +3,15 @@
 	<AudioDevices>
 		<WorkUnit Name="Default Work Unit" ID="{5A678FCE-08AC-4FF4-BADC-7145EE57270A}" PersistMode="Standalone">
 			<ChildrenList>
-				<AudioDevice Name="System" ID="{9F088308-8E1A-4D8F-BF96-A753C5C8EA93}" PluginName="System" CompanyID="0" PluginID="174" PluginType="7"/>
+				<AudioDevice Name="System" ID="{9F088308-8E1A-4D8F-BF96-A753C5C8EA93}" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+					<PropertyList>
+						<Property Name="Allow3DAudio" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</AudioDevice>
 				<AudioDevice Name="No_Output" ID="{33E38DFF-976C-45DF-A6A5-7AA966685679}" PluginName="No Output" CompanyID="0" PluginID="181" PluginType="7"/>
 			</ChildrenList>
 		</WorkUnit>

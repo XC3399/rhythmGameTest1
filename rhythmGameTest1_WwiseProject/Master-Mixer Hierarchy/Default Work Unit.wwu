@@ -9,6 +9,19 @@
 							<ObjectRef Name="System" ID="{9F088308-8E1A-4D8F-BF96-A753C5C8EA93}" WorkUnitID="{5A678FCE-08AC-4FF4-BADC-7145EE57270A}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Audio Objects" ID="{0D559097-665E-474D-B7AC-837271CCB6C2}">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="BusChannelConfig" Type="int32">
+									<ValueList>
+										<Value>768</Value>
+									</ValueList>
+								</Property>
+								<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+							</PropertyList>
+						</Bus>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>
