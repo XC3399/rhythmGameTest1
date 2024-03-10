@@ -16,6 +16,8 @@ namespace AK
         static const AkUniqueID PLAY_BGMUSICPLAYLIST = 54190626U;
         static const AkUniqueID PLAY_ENEMYPREATTACK = 2918121273U;
         static const AkUniqueID PLAY_ENEMYPREATTACK2 = 138135177U;
+        static const AkUniqueID PLAY_PLAYERATTACKLONG = 1587149131U;
+        static const AkUniqueID PLAY_PLAYERATTACKSHORT = 672943237U;
     } // namespace EVENTS
 
     namespace BANKS

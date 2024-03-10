@@ -6,7 +6,9 @@
 				<SoundBank Name="mainSoundbank" ID="{7E8C8023-0951-468E-9D34-AFEA3C22FFC2}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_bgMusicPlaylist" ID="{4A4B4891-E89C-417C-9179-5C52CDBA01C0}" WorkUnitID="{184D389D-668A-4175-AB89-BEE62B8B7010}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_playerAttackLong" ID="{A9F23B5B-D52A-451D-ADA2-79FFAA6C84D4}" WorkUnitID="{184D389D-668A-4175-AB89-BEE62B8B7010}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_enemyPreAttack" ID="{BECD2FAF-3BDD-4A1E-8FDB-29122B30B42E}" WorkUnitID="{184D389D-668A-4175-AB89-BEE62B8B7010}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_playerAttackShort" ID="{6F72DDC3-EC50-4BF0-AFEB-34E4B712C862}" WorkUnitID="{184D389D-668A-4175-AB89-BEE62B8B7010}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_enemyPreAttack2" ID="{A08668E2-4F34-4FA1-A233-D12ED2DD1985}" WorkUnitID="{184D389D-668A-4175-AB89-BEE62B8B7010}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

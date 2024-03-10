@@ -1,10 +1,14 @@
 Event	ID	Name			Wwise Object Path	Notes
 	54190626	Play_bgMusicPlaylist			\Default Work Unit\Play_bgMusicPlaylist	
 	138135177	Play_enemyPreAttack2			\Default Work Unit\Play_enemyPreAttack2	
+	672943237	Play_playerAttackShort			\Default Work Unit\Play_playerAttackShort	
+	1587149131	Play_playerAttackLong			\Default Work Unit\Play_playerAttackLong	
 	2918121273	Play_enemyPreAttack			\Default Work Unit\Play_enemyPreAttack	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	243968339	beat test1	C:\Users\xixic\Desktop\Unity Projects\rhythmGameTest1\rhythmGameTest1_WwiseProject\.cache\Windows\SFX\beat test1_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\bgMusicPlaylist\bgMusic\beat test1		1411296
+	311966330	playerAttackShort1	C:\Users\xixic\Desktop\Unity Projects\rhythmGameTest1\rhythmGameTest1_WwiseProject\.cache\Windows\SFX\playerAttackShort1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\playerAttackShort1		352896
 	427912815	enemyPreAttack2	C:\Users\xixic\Desktop\Unity Projects\rhythmGameTest1\rhythmGameTest1_WwiseProject\.cache\Windows\SFX\enemyPreAttack2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemyPreAttack2		352896
+	473194318	playerAttackLong2	C:\Users\xixic\Desktop\Unity Projects\rhythmGameTest1\rhythmGameTest1_WwiseProject\.cache\Windows\SFX\playerAttackLong2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\playerAttackLong2		352896
 	683939523	enemyPreAttack1	C:\Users\xixic\Desktop\Unity Projects\rhythmGameTest1\rhythmGameTest1_WwiseProject\.cache\Windows\SFX\enemyPreAttack1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemyPreAttack\enemyPreAttack1		352896
 

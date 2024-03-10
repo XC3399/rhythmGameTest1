@@ -10,6 +10,8 @@ public class playerActions : MonoBehaviour
     public int attack2Time;
 
     [SerializeField] AK.Wwise.Event preAttackEnd;
+    [SerializeField] AK.Wwise.Event playerAttackLong;
+    [SerializeField] AK.Wwise.Event playerAttackShort;
 
     // Start is called before the first frame update
     void Start()
@@ -23,10 +25,11 @@ public class playerActions : MonoBehaviour
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Mouse0))
-        {
-            if (musicManagerScript.window == true)
+        {   
+            if (musicManagerScript.window == true && attack2Time + 3 < musicManagerScript.cueCount)
             {
                 Debug.Log("1 in window");
+                playerAttackShort.Post(gameObject);
             }
             else
             {
@@ -41,6 +44,7 @@ public class playerActions : MonoBehaviour
             {
                 //Debug.Log(musicManagerScript.cueCount);
                 Debug.Log("2 in window");
+                playerAttackLong.Post(gameObject);
                 attack2Time = musicManagerScript.cueCount;
 
             }

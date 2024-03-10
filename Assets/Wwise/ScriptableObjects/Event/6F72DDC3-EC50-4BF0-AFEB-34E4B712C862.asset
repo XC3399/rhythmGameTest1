@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 481cdf35aa73f594d90d4fae770f79bd, type: 3}
+  m_Name: 6F72DDC3-EC50-4BF0-AFEB-34E4B712C862
+  m_EditorClassIdentifier: 
+  objectName: Play_playerAttackShort
+  id: 672943237
+  guid: 6F72DDC3-EC50-4BF0-AFEB-34E4B712C862

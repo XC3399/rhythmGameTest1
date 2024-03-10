@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="534561221" Type="User" Language="SFX" Hash="{9DF98023-991D-837B-3183-BF15D01630E5}">
+		<SoundBank Id="534561221" Type="User" Language="SFX" Hash="{4D6A98BC-7052-FAA9-9E34-FB91FC73F9EC}">
 			<ShortName>mainSoundbank</ShortName>
 			<Path>mainSoundbank.bnk</Path>
 			<Media>
@@ -17,9 +17,17 @@
 					<ShortName>beat test1.wav</ShortName>
 					<CachePath>SFX/beat test1_FBC78EF0.wem</CachePath>
 				</File>
+				<File Id="311966330" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>playerAttackShort1.wav</ShortName>
+					<CachePath>SFX/playerAttackShort1_818F3B66.wem</CachePath>
+				</File>
 				<File Id="427912815" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>enemyPreAttack2.wav</ShortName>
 					<CachePath>SFX/enemyPreAttack2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="473194318" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>playerAttackLong2.wav</ShortName>
+					<CachePath>SFX/playerAttackLong2_818F3B66.wem</CachePath>
 				</File>
 				<File Id="683939523" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>enemyPreAttack1.wav</ShortName>
@@ -42,6 +50,16 @@
 						<MediaRef Id="427912815"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1587149131" Name="Play_playerAttackLong" DurationType="OneShot" DurationMin="2" DurationMax="2">
+					<MediaRefs>
+						<MediaRef Id="473194318"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="672943237" Name="Play_playerAttackShort" DurationType="OneShot" DurationMin="2" DurationMax="2">
+					<MediaRefs>
+						<MediaRef Id="311966330"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 		</SoundBank>
 		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{A5C3F6CC-2424-DA59-A4DE-90E282C9E73E}">
@@ -59,5 +77,5 @@
 			</Busses>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{57D7C026-2826-14B5-21A0-29F9B856157D}</FileHash>
+	<FileHash>{55CCFD32-BB19-B326-05E4-EACC7C536767}</FileHash>
 </SoundBanksInfo>

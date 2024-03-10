@@ -36,6 +36,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_playerAttackLong" ID="{A9F23B5B-D52A-451D-ADA2-79FFAA6C84D4}">
+					<ChildrenList>
+						<Action Name="" ID="{D2A7548E-D7C3-4961-B06E-FA18CB2DC431}" ShortID="505529703">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="playerAttackLong2" ID="{DB0C03E1-40B3-4C15-ACF2-21286E54138D}" WorkUnitID="{04D5F65F-482C-4E7D-BF95-5B988A6CF6E5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_playerAttackShort" ID="{6F72DDC3-EC50-4BF0-AFEB-34E4B712C862}">
+					<ChildrenList>
+						<Action Name="" ID="{EEE0663F-0B6F-41D4-A493-0D61F3407EF7}" ShortID="694062054">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="playerAttackShort1" ID="{80CA3260-A96B-4A22-B67A-37A1D51ABC8C}" WorkUnitID="{04D5F65F-482C-4E7D-BF95-5B988A6CF6E5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
