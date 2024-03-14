@@ -7,6 +7,7 @@ Event	ID	Name			Wwise Object Path	Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	243968339	beat test1	C:\Users\xixic\Desktop\Unity Projects\rhythmGameTest1\rhythmGameTest1_WwiseProject\.cache\Windows\SFX\beat test1_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\bgMusicPlaylist\bgMusic\beat test1		1411296
+	254476216	beat test 2	C:\Users\xixic\Desktop\Unity Projects\rhythmGameTest1\rhythmGameTest1_WwiseProject\.cache\Windows\SFX\beat test 2_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\bgMusicPlaylist\bgMusic\beat test 2		1411296
 	311966330	playerAttackShort1	C:\Users\xixic\Desktop\Unity Projects\rhythmGameTest1\rhythmGameTest1_WwiseProject\.cache\Windows\SFX\playerAttackShort1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\playerAttackShort1		352896
 	427912815	enemyPreAttack2	C:\Users\xixic\Desktop\Unity Projects\rhythmGameTest1\rhythmGameTest1_WwiseProject\.cache\Windows\SFX\enemyPreAttack2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\enemyPreAttack2		352896
 	473194318	playerAttackLong2	C:\Users\xixic\Desktop\Unity Projects\rhythmGameTest1\rhythmGameTest1_WwiseProject\.cache\Windows\SFX\playerAttackLong2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\playerAttackLong2		352896
