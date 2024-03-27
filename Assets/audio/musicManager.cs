@@ -7,6 +7,9 @@ public class musicManager : MonoBehaviour
     [SerializeField] GameObject listener;
 
     [SerializeField] AK.Wwise.Event mainMusic;
+    [SerializeField] AK.Wwise.Event mainMusic2;
+
+    [SerializeField] AK.Wwise.Event mainBeat;
     public int cueCount = 0;
     public bool window = true;
 
@@ -22,7 +25,9 @@ public class musicManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        mainMusic.Post(listener, callbackType, callbackFunction);
+        mainBeat.Post(listener, callbackType, callbackFunction);
+        //mainMusic.Post(gameObject);
+        mainMusic2.Post(gameObject);
     }
 
 

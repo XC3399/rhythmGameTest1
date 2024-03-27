@@ -13,7 +13,9 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_BGBEATPLAYLIST = 1876552837U;
         static const AkUniqueID PLAY_BGMUSICPLAYLIST = 54190626U;
+        static const AkUniqueID PLAY_BGMUSICPLAYLIST2 = 934411188U;
         static const AkUniqueID PLAY_ENEMYPREATTACK = 2918121273U;
         static const AkUniqueID PLAY_ENEMYPREATTACK2 = 138135177U;
         static const AkUniqueID PLAY_PLAYERATTACKLONG = 1587149131U;

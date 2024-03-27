@@ -552,6 +552,16 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 510660f8f3b152d438d3f835abff0357,
       type: 2}
+  mainMusic2:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 99c7456d822fb06439f450d95e4cdd8d,
+      type: 2}
+  mainBeat:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: d2407caabb65a5e4c82dd8246754bcee,
+      type: 2}
   cueCount: 0
   window: 1
   enemyPreAttack:

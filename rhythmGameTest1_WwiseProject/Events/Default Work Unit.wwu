@@ -58,6 +58,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_bgBeatPlaylist" ID="{BC183019-C3E0-4A97-9A20-AF1EB6622550}">
+					<ChildrenList>
+						<Action Name="" ID="{B156CEEC-885F-43FC-9BFF-EA399E9D9E73}" ShortID="496613813">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="bgBeatPlaylist" ID="{20AF5979-22D7-4622-813F-E8D6F30B6ED9}" WorkUnitID="{E0766F51-589C-41C2-8A34-7934B77508EB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_bgMusicPlaylist2" ID="{89BF7665-44AD-4779-862D-6E7D3A54BB3D}">
+					<ChildrenList>
+						<Action Name="" ID="{DE9779D5-B9E9-45ED-A3F6-665FBB117167}" ShortID="674297372">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="bgMusicPlaylist2" ID="{6CC67F9E-2468-4542-AC71-C52F03FD44A1}" WorkUnitID="{E0766F51-589C-41C2-8A34-7934B77508EB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
