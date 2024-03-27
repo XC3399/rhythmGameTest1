@@ -8,6 +8,7 @@ public class musicManager : MonoBehaviour
 
     [SerializeField] AK.Wwise.Event mainMusic;
     [SerializeField] AK.Wwise.Event mainMusic2;
+    public bool thirds = false;
 
     [SerializeField] AK.Wwise.Event mainBeat;
     public int cueCount = 0;
@@ -26,8 +27,15 @@ public class musicManager : MonoBehaviour
     void Start()
     {
         mainBeat.Post(listener, callbackType, callbackFunction);
-        //mainMusic.Post(gameObject);
-        mainMusic2.Post(gameObject);
+        //for testing if i should use thirds
+        if(thirds == false)
+        {
+            mainMusic.Post(gameObject);
+        }
+        if(thirds == true)
+        {
+            mainMusic2.Post(gameObject);
+        }
     }
 
 
